@@ -10,7 +10,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
       "root": "",
@@ -76,7 +76,7 @@
             "sslCert": "./ssl/server.crt",
             "ssl": true,
             "browserTarget": "test:build"
-          },  
+          },
           "configurations": {
             "production": {
               "browserTarget": "client:build:production"
