@@ -16,7 +16,7 @@ export class AuthGuard implements CanActivate {
       map(user =>{
         if (user) return true;
         this.toastr.error('you shall not pass!');
-        return null;
+        return undefined;
       }
       )
     )
