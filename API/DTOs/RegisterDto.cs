@@ -1,4 +1,3 @@
-
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -8,7 +7,7 @@ namespace API.DTOs
     {
         [Required]
         public string Username { get; set; }
-
+  
         [Required] public string KnownAs { get; set; }
         
         [Required] public string Gender { get; set; }
